@@ -1,3 +1,26 @@
 body {
     font-family: 'Montserrat';
+    background-color: #F4AE68;
+}
+@font-face {
+    font-family: Horizon;
+    src: url("horizon.otf") format("opentype");
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    column-gap: 5px;
+    justify-content: space-between;
+}
+.horizon-font {
+    font-family: 'Horizon';
+}
+.montserrat-font {
+    font-family: 'Montserrat';
+}
+
+header {
+    padding: 0;
 }
