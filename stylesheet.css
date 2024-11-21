@@ -15,11 +15,11 @@ body {
     gap: 5px;
     flex-direction: column;
     font-size: 25px;
-    padding: 20px;
+    padding: 40px;
 }
 .horizon-font {
     font-family: 'Horizon';
-    font-size: 40px;
+    font-size: 30px;
 }
 .montserrat-font {
     font-family: 'Montserrat';
