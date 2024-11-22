@@ -1,4 +1,4 @@
-var pages = ["index.html", "summary.html", "objectives.html", "forces.html", "plan.html", "preventions.html", "points.html", "proud.html"];
+var pages = ["index.html", "summary.html", "objectives.html", "forces.html", "plan.html", "preventions.html", "points.html", "proud.html", "conclusion.html"];
 var current_page = 0;
 switch (window.location.href.split('/').pop()) {
     case pages[0]:
@@ -31,6 +31,10 @@ switch (window.location.href.split('/').pop()) {
     
     case pages[7]:
         current_page = 7;
+        break;
+
+    case pages[8]:
+        current_page = 8;
         break;
 }
 document.onkeydown = function(e) {
