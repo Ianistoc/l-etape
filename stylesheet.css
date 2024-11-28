@@ -1,7 +1,14 @@
 body {
+    display: flex;
     font-family: 'Montserrat';
     background-image: linear-gradient(to right, purple, red);
     margin: 0;
+    overflow: hidden;
+    min-width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 @font-face {
@@ -48,4 +55,22 @@ h1, h3 {
     bottom: 1%;
     right: 1%;
     font-size: 25px;
+}
+
+.page {
+    min-width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: transform 1s ease;
+}
+
+#page1 {
+    transform: translateX(0);
+}
+
+#page2 {
+    transform: translateX(100%);
+    position: absolute;
 }
